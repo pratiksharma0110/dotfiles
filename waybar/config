@@ -1,0 +1,60 @@
+{
+
+"include": "~/.config/waybar/modules.json",
+"layer": "top",
+//"mode": "hide",
+"output": "eDP-1",
+"output": ["eDP-1","HDMI-A-1"],
+"exclusive": true,
+"passthrough": false,
+"position": "top",
+"spacing": 3,
+"fixed-center": true,
+"ipc": true,
+"margin-top": 6,
+"margin-left": 8,
+"margin-right": 8,
+"height":18,
+
+"modules-left": [
+	//"custom/menu",
+	"hyprland/workspaces", 
+//	"cpu", 
+//	"temperature", 
+//	"memory",
+  "hyprland/window",
+  
+	 
+	
+	],
+  
+"modules-center": [
+  "cusotm/menu",
+  "clock",
+  "group/hardware",
+  "custom/power"
+//	"custom/load-avg",
+
+	
+	], 
+
+"modules-right": [
+//	"hyprland/window", 
+	
+	"battery", 
+//	"backlight",
+	"pulseaudio",
+	//"wireplumber", 
+	
+	 
+	"clock",
+	//"custom/cycle_wall",	
+	
+ // "group/hardware", 
+ // "custom/power",
+  
+	 
+	
+  "tray",
+	],
+}
