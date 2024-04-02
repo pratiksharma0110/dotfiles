@@ -1,0 +1,27 @@
+/* ---- Configuration ---- */
+configuration {
+    modi:                       "drun,emoji,filebrowser";
+    font:                       "JetBrainsMono Nerd Font Medium 10";
+    show-icons:                 true;
+    display-drun:               "🐧";
+    display-run:                "📦";
+    display-filebrowser:        "📂";
+    display-window:             "🗄️";
+    display-calc:               "calc";
+    display-emoji:              "🙄";
+	drun-display-format:        "{name}";
+    hover-select:               true;
+    me-select-entry:            "MouseSecondary";
+    me-accept-entry:            "MousePrimary";
+    window-format:              "{w} · {c} · {t}";
+    icon-theme:                 "Papirus";
+	dpi:						1;
+}
+
+//@theme "~/.config/rofi/themes/lessgoo.rasi"
+
+//@theme "/usr/local/share/rofi/themes/Monokai.rasi"
+
+//@theme "/usr/local/share/rofi/themes/Arc-Dark.rasi"
+
+@theme "/usr/share/rofi/themes/lessgoo.rasi"
